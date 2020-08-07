@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bienvenu sur la ressource numérique de ma thèse!"
+title:  "Bienvenue sur la ressource numérique de ma thèse!"
 date:   2020-07-28 20:22:13 +0200
 abstract: "Pour une thèse autrement !"
 ---

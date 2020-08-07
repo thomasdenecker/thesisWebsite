@@ -16,11 +16,11 @@ Les données ont été extraites du site [beinsports](https://fr.global.nba.com/
 <div class="row">
   <div class="col-lg-6">
     <p style="text-align : center;"><b>L’écrasante domination de J. Harden</b></p>
-    <img src="./assets/img/graphique/fig1A.png" alt="Fig 1" width="100%">
+    <img src="{{ './assets/img/graphique/fig1A.png' | relative_url  }}" alt="Fig 1" width="100%">
   </div>
   <div class="col-lg-6">
   <p style="text-align : center;"><b>Un équilibre chez les serial scoreurs</b></p>
-    <img src="./assets/img/graphique/fig1B.png" alt="Fig 1" width="100%">
+    <img src="{{ './assets/img/graphique/fig1B.png' | relative_url  }}" alt="Fig 1" width="100%">
   </div>
 </div>
 <figcaption>Figure 1 – Exemple de l’influence des limites des axes sur un graphique : Top 5 des meilleurs marqueurs de la saison 2019-2020 (au moment de l’arrêt à cause du COVID-19)</figcaption>
@@ -44,11 +44,11 @@ Dans une vidéo explicative très détaillée (ci-dessous), Nicolas Lambert nous
 <div class="row">
   <div class="col-lg-6">
     <p style="text-align : center;"><b>L’Europe, terre d’accueil </b><br>Nombre de syriens exilés accueillis en Europe</p>
-    <img src="./assets/img/graphique/fig4A.png" alt="Fig 1" width="100%">
+    <img src="{{ './assets/img/graphique/fig4A.png' | relative_url  }}" alt="Fig 1" width="100%">
   </div>
   <div class="col-lg-6">
   <p style="text-align : center;"><b>La grande invasion </b><br>Nombre de migrants clandestins syriens</p>
-    <img src="./assets/img/graphique/fig4B.png" alt="Fig 1" width="100%">
+    <img src="{{ './assets/img/graphique/fig4B.png' | relative_url  }}" alt="Fig 1" width="100%">
   </div>
 </div>
 <figcaption>Figure 4 –Influences des aspects graphiques sur le message à faire passer. Ces figures ont été proposées par F. Bahoken et Nicolas Lambert. Les illustrations ont été extraites <a href='https://neocarto.github.io/syrians/'> ce site </a> </figcaption>
