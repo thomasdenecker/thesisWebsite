@@ -7,7 +7,7 @@
         {% for post in site.posts %}
             <li  
                 style="list-style-type: none; ">
-                <a href="{{ post.url }}">
+                <a href="{{ post.url | relative_url  }}">
                     <div class="name">
                         <h2>{{ post.title }} </h2>
                         {{ post.abstract }}

@@ -8,7 +8,7 @@
 
 <div class="col-lg-4">
     <div class="card" style="height: 100%;">
-        <a href="{{ annexe.url }}">
+        <a href="{{ annexe.url | relative_url  }}">
             <div class="card-header"><b>Annexe {{forloop.index}}</b></div>
             <div class="card-body">
                 <h5 class="card-title">{{ annexe.title }}</h5>
