@@ -11,7 +11,7 @@ annexe: 6
 
 La spectrométrie de masse est une technique d'analyse physico-chimique permettant de détecter, d'identifier et de quantifier des molécules d’intérêt par mesure de leur masse moléculaire exacte, rapportant ainsi à leur composition élémentaire. Elle peut être vue comme une balance moléculaire. Cette technologie prend racine en 1897 lorsque J. Thomson découvre l’électron et détermine son rapport m/z (Figure 1). Le premier spectromètre de masse est construit 15 ans plus tard en 1912. Depuis plus de 100 ans, nous utilisons cette technologie qui ne cesse d’être améliorée (sensibilité, précision, etc). L’apparition de nouvelles sources d’ionisation dans les années 80 ont grandement amélioré le domaine : le Maldi par K. Tanaka (1987) et l’ESI par J.B. Fenn (1988). Ils ont tous les deux étés récompensés pour leurs travaux par [le prix Nobel de Chimie en 2002](https://www.nobelprize.org/prizes/chemistry/2002/popular-information/). Elle est utilisée dans de nombreux domaines comme la physique, la biologie, la médecine[^1]. 
 
-{% include image.html url="/assets/img/spectroMass/fig1.png" width="100%" description="Figure 1 - Dates majeures de la spectrométrie de masse et les grandes phases de développement." %}
+{% include image.html url="./assets/img/spectroMass/fig1.png" width="100%" description="Figure 1 - Dates majeures de la spectrométrie de masse et les grandes phases de développement." %}
 
 ### Composition d’un spectromètre de masse
 
@@ -22,7 +22,7 @@ Le principe de la spectrométrie de masse est d’analyser et déterminer la mas
 - Un détecteur – Le détecteur va ensuite « compter » les différents ions et amplifier leurs signaux. Il convertira le courant ionique en courant électrique. Le signal obtenu sera proportionnel à la quantité d’ions reçus. Ces ions sont détectés soit à la suite d’une oscillation dont la fréquence est spécifique à leur rapport m/z (technologie Orbitrap) soit à la suite du calcul du temps de vol de l’ion qui est spécifique du rapport m/z (principe du TOF) ;
 - Un ordinateur – Il collecte et traite les signaux puis génère un spectre de masse.
 
-{% include image.html url="/assets/img/spectroMass/fig2.png" width="100%" description="Figure 2 - Le principaux composants d’un spectromètre de masse. Dans la source d'ionisation, les éléments de l'échantillon sont volatilisés en phase gazeuse puis ionisés (ionisateur). Dans l'analyseur de masse, les composants sont séparés en fonction de leurs valeurs m/z avant de heurter le détecteur. Le signal obtenu est traité informatiquement pour obtenir un spectre de masse. Cette figure est une adaptation de la figure 4.3 du livre de (Eidhammer et al. 2013). Le code couleur pour les éléments sera conservé par la suite." %}
+{% include image.html url="./assets/img/spectroMass/fig2.png" width="100%" description="Figure 2 - Le principaux composants d’un spectromètre de masse. Dans la source d'ionisation, les éléments de l'échantillon sont volatilisés en phase gazeuse puis ionisés (ionisateur). Dans l'analyseur de masse, les composants sont séparés en fonction de leurs valeurs m/z avant de heurter le détecteur. Le signal obtenu est traité informatiquement pour obtenir un spectre de masse. Cette figure est une adaptation de la figure 4.3 du livre de (Eidhammer et al. 2013). Le code couleur pour les éléments sera conservé par la suite." %}
 
 ### Spectres de masse
 
@@ -48,7 +48,7 @@ Chacun des pics du massif sont le même élément mais dont la composition est d
 
 Pour alléger les fichiers, les spectres peuvent être transformés en liste de pics où toutes les mesures pour chaque massif isotopique sont combinées en une seule valeur de masse. Nous parlons dans ce cas de spectre en mode centroïde. La valeur associée à chaque massif isotopique est généralement celle de l’élément isotopique présentant l'intensité maximale. Les fichiers contenant ces informations sont par conséquent plus légers et plus simples à manipuler mais de l’information a été perdue. Ces fichiers ont généralement comme extension le mzml.  Un exemple est proposé Figure 3 (droite).
 
-{% include image.html url="/assets/img/spectroMass/fig3.png" width="100%" description="Figure 3 - Comparaison de deux mêmes spectres : un spectre en mode profil (a) et un spectre en mode centroïde (b).
+{% include image.html url="./assets/img/spectroMass/fig3.png" width="100%" description="Figure 3 - Comparaison de deux mêmes spectres : un spectre en mode profil (a) et un spectre en mode centroïde (b).
 Dans notre étude, nous avons travaillé uniquement avec sur les données brutes (fichier .raw) pour conserver toute l’information disponible." %}
 
 ## Spectrométrie de masse en tandem LC-MS/MS
@@ -57,7 +57,7 @@ Dans notre étude, nous avons travaillé uniquement avec sur les données brutes
 
 Pour identifier des protéines, actuellement, l’approche la plus courante est la spectrométrie de masse en tandem LC-MS/MS par stratégie ascendante Bottum up. Sur la [plateforme de protéomique de l’Institut Jacques Monod](https://www.ijm.fr/30/spectrometrie-de-masse.htm), nous pouvons retrouver deux types d’appareils : le spectromètre de masse hybride quadripôle Orbitrap Q Exactive™ plus et le spectromètre de masse Tribrid™ Orbitrap Fusion™ de Thermo Scientific™. Ils fonctionnent exactement sur le même principe. La seule différence est que le Fusion™ est composé de deux analyseurs/détecteurs permettant de paralléliser les analyses. Sur la Figure 4, l’ensemble des composants présentés dans le paragraphe « Composition d’un spectromètre de masse » (page 169) sont mis en avant sur les schémas techniques des deux appareils.
 
-{% include image.html url="/assets/img/spectroMass/fig4.png" width="100%" description="Figure 4 - Différents composants des appareils de spectrométries disponibles sur la plateforme de protéomique de l’Institut Jacques Monod." %}
+{% include image.html url="./assets/img/spectroMass/fig4.png" width="100%" description="Figure 4 - Différents composants des appareils de spectrométries disponibles sur la plateforme de protéomique de l’Institut Jacques Monod." %}
 
 ### Différentes étapes
 
@@ -70,7 +70,7 @@ La première étape consiste à extraire les protéines de l’échantillon. Cet
 #### 2.	Digestion trypsique
 Une fois que l’ensemble des protéines sont récupérées, l’étape suivante consistera à les digérer à l’aide d’une enzyme (trypsine) pour obtenir un mélange de peptides (approche Bottom up). La trypsine est utilisée pour réaliser cette digestion dont une visualisation 3D est Figure 5 - A (trypsine humaine). Il s’agit d’une endoprotéase[^3] qui peut être vue comme des ciseaux moléculaires coupant à des endroits très précis. Le site d’hydrolyse pour la trypsine est le groupement carboxyle des acides aminés lysine et arginine (sauf si elles sont suivies d'une proline). Un exemple d’une digestion trypsique est présenté à la Figure 5-B.
 
-{% include image.html url="/assets/img/spectroMass/fig5.png" width="100%" description="Figure 5 -Visualisation 3D de la trypsine humaine (A). Cette figure a été réalisé à l’aide de Pymol (Schrödinger, LLC 2015)  à partir du fichier <a href='https://www.rcsb.org/structure/2RA3' target='_blank'> PDB 2RA3 </a> B- Exemple de digestion trypsique." %}
+{% include image.html url="./assets/img/spectroMass/fig5.png" width="100%" description="Figure 5 -Visualisation 3D de la trypsine humaine (A). Cette figure a été réalisé à l’aide de Pymol (Schrödinger, LLC 2015)  à partir du fichier <a href='https://www.rcsb.org/structure/2RA3' target='_blank'> PDB 2RA3 </a> B- Exemple de digestion trypsique." %}
 
 #### 3.	Séparation des peptides
 
@@ -84,7 +84,7 @@ Une fois les peptides séparés, ils sont injectés dans le spectromètre de mas
 
 Une fois les éléments prêts à être analysés, ils sont envoyés dans le quadripôle utilisé pour le filtrage des éléments. En MS1, aucun filtrage n’est réalisé : tous les peptides chargés passent. 
 
-{% include image.html url="/assets/img/spectroMass/fig6.png" width="100%" description="Figure 6 -Représentation schématique de la source d’ionisation electrospray (ESI)." %}
+{% include image.html url="./assets/img/spectroMass/fig6.png" width="100%" description="Figure 6 -Représentation schématique de la source d’ionisation electrospray (ESI)." %}
 
 <div class="bandeau">
   MS1 ou full scan
@@ -92,13 +92,13 @@ Une fois les éléments prêts à être analysés, ils sont envoyés dans le qua
 
 En MS1, les éléments ionisés sont des peptides. 
 
-{% include image.html url="/assets/img/spectroMass/fig7.png" width="100%" description="Figure 7 - Schéma des différentes étapes d'une spectrométrie en tandem MS/MS." %}
+{% include image.html url="./assets/img/spectroMass/fig7.png" width="100%" description="Figure 7 - Schéma des différentes étapes d'une spectrométrie en tandem MS/MS." %}
 
 #### 6.	Analyseur 
 
 Il s’agit du premier passage dans un analyseur. L’objectif est de différentier les peptides ionisés collectés. La façon de séparer les éléments ionisés est dépendante du type d’analyseur utilisé[^4]. Au laboratoire, la technologie utilisée est [l’Orbitrap de Thermo Fisher](https://planetorbitrap.com/orbitrap-tribrid-tips). Le principe est de piéger les ions par un champ électrostatique. Ces ions sont séparés grâce à leur différence de fréquence d'oscillation axiale (dépendante de m/z). L'Orbitrap est composée de deux électrodes : une centrale qui piège les ions dans un mouvement orbitale et une externe en forme de cylindre ainsi qu'une électrode externe en forme de cylindre (Figure 8).
 
-{% include image.html url="/assets/img/spectroMass/fig8.png" width="300px" description="Figure 8 - Illustration d'un orbitrap issu du site <a href'https://planetorbitrap.com/' target='_blank'>planetorbitrap</a>" %}
+{% include image.html url="./assets/img/spectroMass/fig8.png" width="300px" description="Figure 8 - Illustration d'un orbitrap issu du site <a href'https://planetorbitrap.com/' target='_blank'>planetorbitrap</a>" %}
 
 #### 7.	Détecteur
 
@@ -122,7 +122,7 @@ Le quadripôle va cette fois ci jouer son rôle de filtrage. Il ne va conserver 
 
 La fragmentation permet d’obtenir un niveau d’information supplémentaire : la structure. Dans ce cas, pour les peptides, il s’agit de la séquence en acides aminés dont l’étape MS1 donne la masse précise. Le peptide va être fragmenté en petits fragments de séquence dans une cellule de collision. La fragmentation du peptide se fait principalement le long de son squelette carboné. Si la charge est portée sur la partie N-terminale, le fragment est classé dans le groupe a, b ou c en fonction du lieu de coupure (Figure 9). Si la charge est portée sur la partie C-terminale, le fragment est classé dans le groupe x, y ou z en fonction du lieu de coupure. Un nombre est ensuite associé pour indiquer le nombre de résidus associés. Chaque fragment sera donc composé de plus ou moins d’acides aminés. Cette nomenclature est utilisée sur la Figure 10.
 
-{% include image.html url="/assets/img/spectroMass/fig9.png" width="100%" description="Figure 9 - Classification des peptides fragmentés. La liaison rouge correspond à la liaison peptidique entre deux acides aminés." %}
+{% include image.html url="./assets/img/spectroMass/fig9.png" width="100%" description="Figure 9 - Classification des peptides fragmentés. La liaison rouge correspond à la liaison peptidique entre deux acides aminés." %}
 
 #### 11. Analyseur
 
@@ -132,7 +132,7 @@ Lorsque qu’un peptide est fragmenté, nous obtenons des petits fragments de ta
 
 Chaque pic correspondra à un fragment plus ou moins lourds en fonction de sa composition propre en acides aminés. La différence de poids entre deux pics successifs correspond exactement au poids d’un acide aminé. Ainsi, en calculant les différences de poids successivement, il est possible de déterminer la séquence du peptide qui a été fragmenté (Figure 10). À partir de cette information et du spectre de masse, il sera possible d’identifier la protéine d’origine.
 
-{% include image.html url="/assets/img/spectroMass/fig10.png" width="100%" description="Figure 10 - Exemple de spectre à gauche et du poids des différents acides aminés dans le tableau de droite. Comme nous pouvons le voir, le pic y6 pèse 699.5 m/z et le pic y7 pèse 828.5 m/z. Pour rappel, y signifie que la fragmentation a eu lieu entre le carbone et l’azote et 6 (ou 7) que 6 (ou 7) acides aminés composent ce fragment (Figure 9). La différence entre les deux fait 129 m/z ce qui correspond exactement à un glutamate. Ce qui sépare ces deux fragments est donc l’acide aminé glutamate. Le spectre de masse est issu du <a href='https://www.bioinfor.com/de-novo-sequencing/ ' target='_blank'> site Bioinformatics Solutions Inc.</a>" %}
+{% include image.html url="./assets/img/spectroMass/fig10.png" width="100%" description="Figure 10 - Exemple de spectre à gauche et du poids des différents acides aminés dans le tableau de droite. Comme nous pouvons le voir, le pic y6 pèse 699.5 m/z et le pic y7 pèse 828.5 m/z. Pour rappel, y signifie que la fragmentation a eu lieu entre le carbone et l’azote et 6 (ou 7) que 6 (ou 7) acides aminés composent ce fragment (Figure 9). La différence entre les deux fait 129 m/z ce qui correspond exactement à un glutamate. Ce qui sépare ces deux fragments est donc l’acide aminé glutamate. Le spectre de masse est issu du <a href='https://www.bioinfor.com/de-novo-sequencing/ ' target='_blank'> site Bioinformatics Solutions Inc.</a>" %}
 
 À partir de toutes les données générées, l’analyse computationnelle va permettre d’identifier les protéines d’où proviennent les peptides. Cette étape critique est détaillée dans le manuscrit de thèse.
 

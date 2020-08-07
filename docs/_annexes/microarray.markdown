@@ -24,7 +24,7 @@ Ces ADNc simple brin sont mélangés pour obtenir les cibles (un mélange d’AD
 
 Un rayonnement laser est envoyé sur chaque zone de dépôt des sondes (les spots) pour exciter les fluorochromes. Les intensités de la fluorescence émise par le fluorochrome rouge puis vert sont enregistrées. Ces intensités sont proportionnelles à la quantité de cibles hybridées sur les sondes. Deux images sont alors obtenues : une pour le fluorochrome vert et une pour le fluorochrome rouge.
 
-{% include image.html url="/assets/img/microarray/fig1.PNG" width="100%" description="Figure 1 - Illustration du principe d’hybridation à la base du fonctionnement de la technologie des puces à ADN." %}
+{% include image.html url="./assets/img/microarray/fig1.PNG" width="100%" description="Figure 1 - Illustration du principe d’hybridation à la base du fonctionnement de la technologie des puces à ADN." %}
 
 
 #### 5. Traitement des données
@@ -37,6 +37,6 @@ L’objectif est de mesurer à l’aide de l’intensité de la fluorescence la 
 #### 6. Analyses de donnée
 À partir de ce jeu de données, des analyses de données peuvent être réalisées
 
-{% include image.html url="/assets/img/microarray/fig2.png" width="400px" description="Figure 2 - Résumé des différentes étapes de la réalisation d’une expérience de puce à ADN double marquage." %}
+{% include image.html url="./assets/img/microarray/fig2.png" width="400px" description="Figure 2 - Résumé des différentes étapes de la réalisation d’une expérience de puce à ADN double marquage." %}
 
-L’[annexe XXXXXX](/annexes/biaisPuces/)  présente les différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées.
+L’[annexe XXXXXX](./annexes/biaisPuces/)  présente les différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées.

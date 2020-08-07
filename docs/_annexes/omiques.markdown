@@ -27,7 +27,7 @@ la littérature l’utilisation de techniques omiques pour réaliser de la scien
 Le tableau suivant regroupe les principales omiques et les technologies associées. Il est inspiré
 de l’article de Jacques Haiech et al ([Haiech et al. 2012](https://doi.org/10.1051/medsci/2012282020)).
 
-{% include image.html url="/assets/img/omiques/tab1.PNG" width="800px" description="Tableau 1 - Principe du séquençage de Sanger (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
+{% include image.html url="./assets/img/omiques/tab1.PNG" width="800px" description="Tableau 1 - Principe du séquençage de Sanger (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
 
 ## Evolution des omiques
 
@@ -39,14 +39,14 @@ individuellement ce qui en constitue sa principale limite. Malgré des améliora
 considérables en matière d'automatisation et de débit, le séquençage de Sanger reste
 relativement coûteux et exigeant en main-d'oeuvre. 
 
-{% include image.html url="/assets/img/omiques/fig1.PNG" width="800px" description="Figure 1 - Principe du séquençage de Sanger (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
+{% include image.html url="./assets/img/omiques/fig1.PNG" width="800px" description="Figure 1 - Principe du séquençage de Sanger (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
 
 En 2005, une nouvelle génération de
 technologie de séquençage a vu le jour : le séquençage haut débit (NGS). Sa capacité à traiter
 des données en parallèle permet aujourd’hui l’analyse de plusieurs centaines de gigabases à
 chaque passage dans l’instrument.
 
-{% include image.html url="/assets/img/omiques/fig1-bis.PNG" width="100%" description="Figure 2 - Evolution des techniques expérimentales de séquençage des acides nucléiques. Cette figure a été réalisée principalement à partir des informations présentées dans l’article (<a href='http://dx.doi.org/10.5772/61964' target='_blank'> Kulski 2016</a>). Les photographies des machines de séquençage ont été obtenues sur les sites Internet des constructeurs. La photo de gel pour la méthode de Sanger (photo 1977) et la structure 3D de l’ADN de Gosling et Franklin (« Photo 51 », 1953) ont été obtenues sur le site Internet Wikipédia. La photo du gel de la Méthode Mawam et Gilbert (1973) a été extraite de l’article (<a href='https://doi.org/10.1093/nar/19.13.3689' target='_blank'>Ueda et al. 1991</a>)." %} 
+{% include image.html url="./assets/img/omiques/fig1-bis.PNG" width="100%" description="Figure 2 - Evolution des techniques expérimentales de séquençage des acides nucléiques. Cette figure a été réalisée principalement à partir des informations présentées dans l’article (<a href='http://dx.doi.org/10.5772/61964' target='_blank'> Kulski 2016</a>). Les photographies des machines de séquençage ont été obtenues sur les sites Internet des constructeurs. La photo de gel pour la méthode de Sanger (photo 1977) et la structure 3D de l’ADN de Gosling et Franklin (« Photo 51 », 1953) ont été obtenues sur le site Internet Wikipédia. La photo du gel de la Méthode Mawam et Gilbert (1973) a été extraite de l’article (<a href='https://doi.org/10.1093/nar/19.13.3689' target='_blank'>Ueda et al. 1991</a>)." %} 
 
 Avec les années, ces technologies sont devenues de plus en plus accessibles permettant d’élargir
 constamment les champs de recherche. De nouvelles techniques expérimentales ont vu le jour
@@ -76,7 +76,7 @@ nombre de séquences d’ARN associées à un gène représente le niveau d'expr
 Le RNAseq est très rapide et propose une plus grande couverture du génome mais représente
 un coût économique important par rapport au puce à ADN.
 
-{% include image.html url="/assets/img/omiques/fig2.PNG" width="800px" description="Figure 3 - Techniques expérimentales basées sur la technologie NGS (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
+{% include image.html url="./assets/img/omiques/fig2.PNG" width="800px" description="Figure 3 - Techniques expérimentales basées sur la technologie NGS (<a href='https://doi.org/10.1089/wound.2012.0379' target='_blank'>Bunnik et al. 2013</a>)" %}
 
 ### Evolution de la protéomique
 

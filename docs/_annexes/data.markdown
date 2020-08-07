@@ -23,5 +23,5 @@ conseil dans la prise de décisions.
 
 Finalement, ces 3 terminologies sont imbriquées entre elles comme le montre la Figure 1.
 
-{% include image.html url="/assets/img/data/fig1.PNG" width="400px" description="Figure 1 - Lien entre le data ming, la data analysis et la data science. Le data mining est inclus dans la data analysis elle même
+{% include image.html url="./assets/img/data/fig1.PNG" width="400px" description="Figure 1 - Lien entre le data ming, la data analysis et la data science. Le data mining est inclus dans la data analysis elle même
 incluse dans la data science." %}

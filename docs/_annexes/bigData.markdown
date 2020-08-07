@@ -6,12 +6,14 @@ annexe: 1
 ---
 
 ## Une définition du big data
+
 Le big data (littéralement « grosses données » en anglais), les mégadonnées ou les données
 massives, « désigne des ensembles de données devenus si volumineux qu'ils dépassent
 l'intuition et les capacités humaines d'analyse et même celles des outils informatiques
 classiques de gestion de base de données ou de l'information » (Wikipédia)209.
 
 ## Les dimensions du big data
+
 Le big data ne repose pas uniquement sur la taille totale des données mais plus généralement
 sur les 3 V de Gartner (Laney 2001):
 

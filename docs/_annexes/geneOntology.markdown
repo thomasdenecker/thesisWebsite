@@ -22,7 +22,7 @@ Il s’agit des termes que nous retrouvons dans cette ontologie. Ils s’organis
 
 Le domaine bilogical process regroupe plus de 30000 GO terms, suivi par molecular function avec plus de 12000 GO terms et enfin cellular component avec plus de 4000 Go terms (Figure 120).
 
-{% include image.html url="/assets/img/geneOntology/fig1.png" width="400px" description="Figure 1 – Nombre de GO terms associés à chaque domaine" %}
+{% include image.html url="./assets/img/geneOntology/fig1.png" width="400px" description="Figure 1 – Nombre de GO terms associés à chaque domaine" %}
 
 Chaque GO term est défini au minimum par :
 
@@ -33,7 +33,7 @@ Chaque GO term est défini au minimum par :
 
 D’autres informations peuvent aussi être associées comme des synonymes, des références, …. Toutes ces informations sont organisées et diffusées sur le site [QuickGO](https://www.ebi.ac.uk/QuickGO/). Il est possible de retrouver notamment le DAG contenant le GO term recherché comme celui proposé à la Figure 121. 
 
- {% include image.html url="/assets/img/geneOntology/fig2.png" width="400px" description="Figure 2 – Exemple Ancestor chart disponible sur <a href='https://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0034755' target='_blank'>QuickGO</a>. Ici, il s’agit de celui du term GO:0034755" %}
+ {% include image.html url="./assets/img/geneOntology/fig2.png" width="400px" description="Figure 2 – Exemple Ancestor chart disponible sur <a href='https://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0034755' target='_blank'>QuickGO</a>. Ici, il s’agit de celui du term GO:0034755" %}
 
 L’ensemble du vocabulaire est stocké dans des fichiers au format `.obo` (Open Biomedical Ontologies). Un extrait est proposé ci-dessous (Extrait 1)
 

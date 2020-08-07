@@ -17,4 +17,4 @@ En 2003, une liste de gènes dit universels a été mise en évidence ([Harris e
 
 La figure suivante est une proposition de comparaison des orthologues et des différents paralogues. Elle est inspirée d’une figure proposée dans l’article de Fredj Tekaia ([Tekaia 2016](https://doi.org/10.4137/GEI.S37925)).
 
-{% include image.html url="/assets/img/orthologue/fig1.png" width="100%" description="Figure 1 - Représentation schématique de la différence entre orthologues et paralogues à partir d’un gène ancêtre. " %}
+{% include image.html url="./assets/img/orthologue/fig1.png" width="100%" description="Figure 1 - Représentation schématique de la différence entre orthologues et paralogues à partir d’un gène ancêtre. " %}

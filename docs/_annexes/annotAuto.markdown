@@ -102,7 +102,7 @@ Nous avons donc deux gènes extrêmement proches ayant bénéficié d’un trans
 
 Pour sélectionner un des deux gènes, nous avons décidé d’utiliser la synténie. Nous avons donc recherché si les gènes qui entourent notre gène d’intérêt sont les mêmes par orthologie chez S. cerevisiae. Les 3 gènes qui précèdent CAGL0B03421g ont leurs orthologues qui précèdent HAP1 chez *S. cerevisiae* (Figure 1). Il n’existe pas de synténie pour le gène CAGL0K05841g. En résumé, l’annotation proposée pour le gène HAP1 dans la CGD semble erronée et la cause la plus probable est une annotation automatique par transfert non vérifiée.
 
-{% include image.html url="/assets/img/annotAuto/fig1.png" width="800px" description="Figure 1 – Recherche de synténie pour le gène CAGL0B03421g" %}
+{% include image.html url="./assets/img/annotAuto/fig1.png" width="800px" description="Figure 1 – Recherche de synténie pour le gène CAGL0B03421g" %}
 
 ---
 [^1]: Outil permettant de trouver des régions de similarité locale entre les séquences
