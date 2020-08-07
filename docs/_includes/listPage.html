@@ -1,0 +1,38 @@
+<div id="listId">
+    <div class="text-right">
+        <input class="search" placeholder="Rechercher" />
+    </div>
+    
+    <ul class="list">
+        {% for post in site.posts %}
+            <li  
+                style="list-style-type: none; ">
+                <a href="{{ post.url }}">
+                    <div class="name">
+                        <h2>{{ post.title }} </h2>
+                        {{ post.abstract }}
+                    </div>
+                </a>
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+
+    <ul class="pagination"></ul>
+</div>
+
+<script>
+    var options = {
+        page: 5,
+        valueNames: ['name'],   
+        pagination: [{
+            name: "pagination",
+            paginationClass: "pagination",
+            outerWindow: 2
+        }]
+    };
+
+    var listObj = new List('listId', options);
+
+</script>
+

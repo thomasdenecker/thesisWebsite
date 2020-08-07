@@ -1,0 +1,19 @@
+<table>
+    {% assign table = site.data.{{ include.name }} %}
+
+
+    {% for row in table %}
+    {{ row }}
+        {% if forloop.first %}
+        <tr>
+            {% for pair in row %}
+            <th>{{ pair[0] }}</th>
+            {% endfor %}
+        </tr>
+        {% endif %}
+
+        {% tablerow pair in row %}
+        {{ pair[1] }}
+        {% endtablerow %}
+    {% endfor %}
+</table>

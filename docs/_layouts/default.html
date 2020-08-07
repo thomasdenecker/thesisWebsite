@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thomas Denecker</title>
+    {%- include head.html -%}    
+</head>
+
+<body data-spy="scroll" data-target="#sidebar" data-offset="50">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <box-icon name='chevron-up' type='solid' color='white'></box-icon>
+    </button>
+    <div class="wrapper">
+
+        <!-- Side bar -->
+        {%- include sidebar.html -%}
+
+        <!-- Page Content -->
+       
+        <div id="content">
+            <div class="container containerStyle">
+                {{ content }}
+            </div>
+            <button type="button" id="sidebarCollapse" class="btn btn-info-perso">
+                <i class="fas fa-align-justify"></i>
+            </button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function closeNav() {
+                $("#sidebar").removeClass("active");
+        };
+
+        $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                });
+            });
+
+
+        if ($('#content').width() >= 1140) {
+            $('#content').addClass('containerMargin');
+        }
+        else {
+            $('#content').removeClass('containerMargin');
+        }
+
+        $(window).on('resize', function () {
+            if ($('#content').width() >= 1140) {
+                $('#content').addClass('containerMargin');
+            }
+            else {
+                $('#content').removeClass('containerMargin');
+            }
+        })
+        
+    </script>
+
+</body>
+
+</html>

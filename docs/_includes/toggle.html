@@ -1,0 +1,17 @@
+  
+<div class="d-flex justify-content-end">
+    <a class="btn btn-primary" data-toggle="collapse" href="#{{ include.toggleId }}" role="button" aria-expanded="false"
+      aria-controls="{{ include.toggleId }}" style="margin-right: 10px;">
+      Abstract
+    </a>
+
+    {% capture PDFURL %}/assets/pdf/{{ article.PDF }}{% endcapture %}
+    <a class="btn btn-primary" href="{{ PDFURL | relative_url }}" role="button" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Download</a>
+</div>
+
+<div class="collapse" id="{{ include.toggleId }}" style="margin-top: 10px;">
+  <div class="card card-body" markdown="0">
+    {{ include.toggle-text }}
+  </div>
+</div>
+<br>

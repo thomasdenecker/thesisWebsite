@@ -1,0 +1,45 @@
+{%- assign default_paths = site.pages | sort:"order" | map: "path"  -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+<!-- Sidebar -->
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <p class="myName"><a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></p>
+        <img src="/assets/img/profile.jpg" alt="" class="profile">
+        <div class="social-links">
+            <a href="https://twitter.com/DeneckerThomas">
+                <box-icon type='logo' name='twitter' color='white' size="xm"></box-icon>
+            </a>
+            <a href="mailto:thomas.denecker@gmail.com">
+                <box-icon name='envelope' type='solid' color='white' size="xm"></box-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-denecker/">
+                <box-icon type='logo' name='linkedin' color='white' size="xm"></box-icon>
+            </a>
+            <a href="#">
+                <box-icon type='logo' name='slack' color='white' size="xm"></box-icon>
+            </a>
+            <a href="https://www.instagram.com/thomas.denecker/?hl=fr">
+                <box-icon type='logo' name='instagram-alt' color='white' size="xm"></box-icon>
+            </a>
+        </div>
+    </div>
+
+    <ul class="nav nav-pills flex-column">
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first  -%}
+        {%- assign curentPage = page.url | relative_url -%}
+
+        {%- if my_page.title -%}
+            <li class="nav-item"  >
+                {% if curentPage == my_page.url %} 
+                    <a class="nav-link pageActive" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {% else %}
+                    <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {% endif %}
+            </li>
+        {%- endif -%}
+        {%- endfor -%}
+    </ul>
+</nav>

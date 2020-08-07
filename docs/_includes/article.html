@@ -1,0 +1,17 @@
+<h4> {{ include.titre }} </h4>
+<p> {{ include.auteurs }} <br>
+{% capture journal %}{{ include.journal }}{% endcapture %}
+
+{% if include.journal == "Bioinfo-fr.net" or include.journal == "HAL" %}
+
+<i>{{ include.journal }}</i> - <a href="{{ include.DOI }}" target="_blank" style="color: dodgerblue;">
+  {{ include.DOI }} </a>
+
+{% else %}
+
+<i>{{ include.journal }}</i> - <a href="https://doi.org/{{ include.DOI }}" target="_blank" style="color: dodgerblue;">
+  {{ include.DOI }} </a>
+
+{% endif %}
+
+</p>

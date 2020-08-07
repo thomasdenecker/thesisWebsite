@@ -1,0 +1,31 @@
+{% for annexe in site.annexes %}
+{% assign remainder = forloop.index | modulo: 3 %}
+{% if forloop.first == true %}
+
+<div class="row equal"> 
+
+{% endif %}
+
+<div class="col-lg-4">
+    <div class="card" style="height: 100%;">
+        <a href="{{ annexe.url }}">
+            <div class="card-header"><b>Annexe {{forloop.index}}</b></div>
+            <div class="card-body">
+                <h5 class="card-title">{{ annexe.title }}</h5>
+                <p class="card-text">{{ annexe.abstract }}</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+{% if remainder == 0 %}
+</div>
+<br>
+<div class="row equal">
+{% endif %}
+
+{% if forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}
