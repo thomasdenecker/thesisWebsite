@@ -5,8 +5,8 @@
 <!-- Sidebar -->
 <nav id="sidebar">
     <div class="sidebar-header">
-        <p class="myName"><a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></p>
-        <img src="/assets/img/profile.jpg" alt="" class="profile">
+        <p class="myName"><a rel="author" href="{{ "./" | relative_url }}">{{ site.title | escape }}</a></p>
+        <img src="{{ "./assets/img/profile.jpg"  | relative_url }}" alt="" class="profile">
         <div class="social-links">
             <a href="https://twitter.com/DeneckerThomas">
                 <box-icon type='logo' name='twitter' color='white' size="xm"></box-icon>
