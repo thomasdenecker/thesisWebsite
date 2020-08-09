@@ -70,7 +70,7 @@ La première étape consiste à extraire les protéines de l’échantillon. Cet
 #### 2.	Digestion trypsique
 Une fois que l’ensemble des protéines sont récupérées, l’étape suivante consistera à les digérer à l’aide d’une enzyme (trypsine) pour obtenir un mélange de peptides (approche Bottom up). La trypsine est utilisée pour réaliser cette digestion dont une visualisation 3D est Figure 5 - A (trypsine humaine). Il s’agit d’une endoprotéase[^3] qui peut être vue comme des ciseaux moléculaires coupant à des endroits très précis. Le site d’hydrolyse pour la trypsine est le groupement carboxyle des acides aminés lysine et arginine (sauf si elles sont suivies d'une proline). Un exemple d’une digestion trypsique est présenté à la Figure 5-B.
 
-{% include 3DStructure.html %}
+{% include 3Dstructure.html %}
 
 #### 3.	Séparation des peptides
 
