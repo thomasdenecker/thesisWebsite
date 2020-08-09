@@ -70,7 +70,7 @@ La première étape consiste à extraire les protéines de l’échantillon. Cet
 #### 2.	Digestion trypsique
 Une fois que l’ensemble des protéines sont récupérées, l’étape suivante consistera à les digérer à l’aide d’une enzyme (trypsine) pour obtenir un mélange de peptides (approche Bottom up). La trypsine est utilisée pour réaliser cette digestion dont une visualisation 3D est Figure 5 - A (trypsine humaine). Il s’agit d’une endoprotéase[^3] qui peut être vue comme des ciseaux moléculaires coupant à des endroits très précis. Le site d’hydrolyse pour la trypsine est le groupement carboxyle des acides aminés lysine et arginine (sauf si elles sont suivies d'une proline). Un exemple d’une digestion trypsique est présenté à la Figure 5-B.
 
-{% include image.html url="./assets/img/spectroMass/fig5.png" width="100%" description="Figure 5 -Visualisation 3D de la trypsine humaine (A). Cette figure a été réalisé à l’aide de Pymol (Schrödinger, LLC 2015)  à partir du fichier <a href='https://www.rcsb.org/structure/2RA3' target='_blank'> PDB 2RA3 </a> B- Exemple de digestion trypsique." %}
+{% include 3dStructure.html %}
 
 #### 3.	Séparation des peptides
 
@@ -98,7 +98,7 @@ En MS1, les éléments ionisés sont des peptides.
 
 Il s’agit du premier passage dans un analyseur. L’objectif est de différentier les peptides ionisés collectés. La façon de séparer les éléments ionisés est dépendante du type d’analyseur utilisé[^4]. Au laboratoire, la technologie utilisée est [l’Orbitrap de Thermo Fisher](https://planetorbitrap.com/orbitrap-tribrid-tips). Le principe est de piéger les ions par un champ électrostatique. Ces ions sont séparés grâce à leur différence de fréquence d'oscillation axiale (dépendante de m/z). L'Orbitrap est composée de deux électrodes : une centrale qui piège les ions dans un mouvement orbitale et une externe en forme de cylindre ainsi qu'une électrode externe en forme de cylindre (Figure 8).
 
-{% include image.html url="./assets/img/spectroMass/fig8.png" width="300px" description="Figure 8 - Illustration d'un orbitrap issu du site <a href'https://planetorbitrap.com/' target='_blank'>planetorbitrap</a>" %}
+{% include image.html url="./assets/img/spectroMass/fig8.png" width="300px" description="Figure 8 - Illustration d'un orbitrap issu du site <a href='https://planetorbitrap.com/' target='_blank'> planetorbitrap</a>" %}
 
 #### 7.	Détecteur
 
@@ -139,7 +139,7 @@ Chaque pic correspondra à un fragment plus ou moins lourds en fonction de sa co
 ---
 
 [^1]: J’ai personnellement utilisé plusieurs fois un spectromètre de masse pour identifier des bactéries isolées chez des patients à l’hôpital.  
-[^2]: Le site suivant propose une méthode détaillée pour retrouver la charge d’un massif isotopique : https://www.ionsource.com/tutorial/spectut/spec5.htm [Accessible le 22/05/2020]
+[^2]: Le site suivant propose une méthode détaillée pour retrouver la charge d’un massif isotopique : [ici](https://www.ionsource.com/tutorial/spectut/spec5.htm) [Accessible le 22/05/2020]
 [^3]: Une endoprotéase est une peptidase capable de couper à l'intérieur d’une chaine protéique. Une peptidase est une enzyme qui lyse des peptides. Enfin une enzyme est une molécule ou ensemble de molécules qui catalyse des réactions chimiques biologiques, donnant un ou des produits à partir d’un ou de plusieurs substrats. (Wikitionnaire)
 [^4]: Pour en savoir plus entre les différents analyseurs, Lennart Martens propose [un cours disponible en ligne] (https://www.youtube.com/watch?v=NKXhyjsgT1I) [Accessible le 28/05/2020]
 [^5]: DDA pour data-dependent acquisition. Ce mode s’oppose au mode DIA (data-independent acquisition) qui analyse tous les éléments dans des fenêtres successives. Pour en savoir plus, l’article de Hu et al propose une comparaison des deux approches, notamment sur la figure 2 ([A. Hu et al. 2016](https://doi.org/10.12688/f1000research.7042.1)). 
