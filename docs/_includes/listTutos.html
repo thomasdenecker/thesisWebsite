@@ -1,0 +1,30 @@
+{% for tuto in site.tutos %}
+{% assign remainder = forloop.index | modulo: 3 %}
+{% if forloop.first == true %}
+
+<div class="row equal"> 
+
+{% endif %}
+
+<div class="col-lg-4" style="margin-bottom: 10px;">
+    <div class="card" style="height: 100%;">
+        <a href="{{ tuto.url | relative_url  }}">
+            <div class="card-header"><b>Tutoriel {{forloop.index}}</b></div>
+            <div class="card-body">
+                <h5 class="card-title">{{ tuto.title }}</h5>
+                <p class="card-text">{{ tuto.abstract }}</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+{% if remainder == 0 %}
+</div>
+<div class="row equal">
+{% endif %}
+
+{% if forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}

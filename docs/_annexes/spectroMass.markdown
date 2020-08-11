@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spectrométrie de masse"
-abstract: "Présentation des  de la spectrométrie de masse"
+abstract: "Présentation de la spectrométrie de masse"
 annexe: 6
 ---
 
@@ -63,24 +63,25 @@ Pour identifier des protéines, actuellement, l’approche la plus courante est 
 
 Les différentes étapes d’une analyse par spectrométrie de masse en tandem LC-MS/MS en approche Bottom up sont détaillées ci-dessous : 
 
-#### 1.	Extraction protéique
+#### 1. Extraction protéique
 
 La première étape consiste à extraire les protéines de l’échantillon. Cette étape est particulièrement délicate et critique puisqu’il faut trouver l’équilibre entre d’une part récupérer le maximum de protéines dans le plus de compartiments possibles et d’autre part limiter un maximum la dégradation des protéines.
 
-#### 2.	Digestion trypsique
+#### 2. Digestion trypsique
+
 Une fois que l’ensemble des protéines sont récupérées, l’étape suivante consistera à les digérer à l’aide d’une enzyme (trypsine) pour obtenir un mélange de peptides (approche Bottom up). La trypsine est utilisée pour réaliser cette digestion dont une visualisation 3D est Figure 5 - A (trypsine humaine). Il s’agit d’une endoprotéase[^3] qui peut être vue comme des ciseaux moléculaires coupant à des endroits très précis. Le site d’hydrolyse pour la trypsine est le groupement carboxyle des acides aminés lysine et arginine (sauf si elles sont suivies d'une proline). Un exemple d’une digestion trypsique est présenté à la Figure 5-B.
 
 {% include 3Dstructure.html %}
 
-#### 3.	Séparation des peptides
+#### 3. Séparation des peptides
 
 Une fois la digestion terminée, l’objectif à présent sera de séparer les différents peptides composant le mélange en fonction de leur hydrophobicité. Pour les séparer, nous utilisons la chromatographie en phase liquide (liquid chromatography ou LC en anglais). Cette technique entraine les peptides dans un liquide (phase mobile) à travers une phase solide stationnaire. En fonction des propriétés physico chimiques des peptides, ils seront relargués plus ou moins rapidement. Dans ce type de chromatographie liquide en phase inverse, un peptide peu hydrophobe sortira beaucoup plus rapidement qu’un peptide hydrophobe. En LC-MS/MS (<u>L</u>iquid <u>C</u>hromatography - <u>M</u>ass <u>S</u>pectrometry / <u>M</u>ass <u>S</u>pectrometry), les types de chromatographie utilisées sont généralement de type HPLC (High Performance Liquid Chromatography) voir UHPLC (Ultra High Performance Liquid Chromatography) pour obtenir une séparation la plus fine possible. Les colonnes utilisées sont de type C18 (chromatographie en phase inverse ou reverse phase). Au laboratoire, l’appareil utilisé pour réaliser la chromatographie est une Thermo Scientific™ EASY-nLC™ Proxeon 1200.
 
-#### 4.	Ionisation des peptides
+#### 4. Ionisation des peptides
 
 Une fois les peptides séparés, ils sont injectés dans le spectromètre de masse pour y être ionisés. Au laboratoire, nous utilisons la technique d’électronébulisation (ou electrospray) très fréquente après une chromatographie en phase liquide. Les peptides en phase liquide vont être chargés et dispersés sous forme de gouttelettes. Un gaz va ensuite être appliqué sur ces gouttelettes pour éliminer le liquide (désolvatation). Lorsque la limite de Raleigh est atteinte, les forces de répulsion coulombienne entre les charges vont être tellement fortes qu’elles vont engendrer une « explosion Coulombienne » pour former des gouttelettes plus petites (Wilm 2011). Ce processus est répété jusqu’à obtenir des gouttelettes ne contenant qu’un peptide chargé. Les peptides vont ensuite passer par un ensemble de zones pour les focaliser (Slens) et éliminer les éléments non chargés (Active Beam Guide).
 
-#### 5.	Filtrage
+#### 5. Filtrage
 
 Une fois les éléments prêts à être analysés, ils sont envoyés dans le quadripôle utilisé pour le filtrage des éléments. En MS1, aucun filtrage n’est réalisé : tous les peptides chargés passent. 
 
@@ -90,21 +91,21 @@ Une fois les éléments prêts à être analysés, ils sont envoyés dans le qua
   MS1 ou full scan
 </div>
 
-En MS1, les éléments ionisés sont des peptides. 
+En MS1, les éléments ionisés sont des peptides.
 
 {% include image.html url="./assets/img/spectroMass/fig7.png" width="100%" description="Figure 7 - Schéma des différentes étapes d'une spectrométrie en tandem MS/MS." %}
 
-#### 6.	Analyseur 
+#### 6. Analyseur
 
 Il s’agit du premier passage dans un analyseur. L’objectif est de différentier les peptides ionisés collectés. La façon de séparer les éléments ionisés est dépendante du type d’analyseur utilisé[^4]. Au laboratoire, la technologie utilisée est [l’Orbitrap de Thermo Fisher](https://planetorbitrap.com/orbitrap-tribrid-tips). Le principe est de piéger les ions par un champ électrostatique. Ces ions sont séparés grâce à leur différence de fréquence d'oscillation axiale (dépendante de m/z). L'Orbitrap est composée de deux électrodes : une centrale qui piège les ions dans un mouvement orbitale et une externe en forme de cylindre ainsi qu'une électrode externe en forme de cylindre (Figure 8).
 
 {% include image.html url="./assets/img/spectroMass/fig8.png" width="300px" description="Figure 8 - Illustration d'un orbitrap issu du site <a href='https://planetorbitrap.com/' target='_blank'> planetorbitrap</a>" %}
 
-#### 7.	Détecteur
+#### 7. Détecteur
 
 Une fois séparés, les peptides ionisés vont être détectés grâce à leur mouvement. Il convertira le courant ionique en courant électrique. Le signal obtenu sera proportionnel à la quantité d’ions reçus.
 
-#### 8.	Ordinateur
+#### 8. Ordinateur
 
 Il collecte et traite les signaux puis génère un spectre de masse. Chaque pic correspondra à un peptide. Informatiquement, les peptides les plus intenses (les pics les plus haut) à une charge donnée seront sélectionnés pour être fragmentés puis identifiés. Sur la plateforme, les 20 peptides les plus intenses à une charge donnée vont être fragmentés (mode DDA[^5]). Sur la Figure 7, pour simplifier la compréhension, un seul peptide a été filtré (le peptide 2 en rouge).
 
@@ -134,7 +135,32 @@ Chaque pic correspondra à un fragment plus ou moins lourds en fonction de sa co
 
 {% include image.html url="./assets/img/spectroMass/fig10.png" width="100%" description="Figure 10 - Exemple de spectre à gauche et du poids des différents acides aminés dans le tableau de droite. Comme nous pouvons le voir, le pic y6 pèse 699.5 m/z et le pic y7 pèse 828.5 m/z. Pour rappel, y signifie que la fragmentation a eu lieu entre le carbone et l’azote et 6 (ou 7) que 6 (ou 7) acides aminés composent ce fragment (Figure 9). La différence entre les deux fait 129 m/z ce qui correspond exactement à un glutamate. Ce qui sépare ces deux fragments est donc l’acide aminé glutamate. Le spectre de masse est issu du <a href='https://www.bioinfor.com/de-novo-sequencing/ ' target='_blank'> site Bioinformatics Solutions Inc.</a>" %}
 
-À partir de toutes les données générées, l’analyse computationnelle va permettre d’identifier les protéines d’où proviennent les peptides. Cette étape critique est détaillée dans le manuscrit de thèse.
+À partir de toutes les données générées, l’analyse computationnelle va permettre d’identifier les protéines d’où proviennent les peptides.
+
+### Identification des protéines à partir des peptides
+
+Il existe de nombreuses méthodes d'identification disponibles dont une liste très complète est disponible sur [Wikipédia](https://en.wikipedia.org/wiki/List_of_mass_spectrometry_software). Ces moteurs de recherche peuvent se séparer en 3 groupes en fonction de la stratégie utilisée (Figure 11) :
+
+- Une recherche basée uniquement sur des banques de données – Le principe est de générer des spectres théoriques à partir des séquences des protéines (en fonction de l’enzyme de clivage, la présence possible de modifications post-traductionnelles, etc) et de les comparer aux spectres expérimentaux (ceux obtenu en MS2). Cette approche est très performante (nombreuses identifications de peptides) mais peut être très lente. Nous pouvons citer les outils Mascot ([Koenig et al. 2008](https://doi.org/10.1021/pr700859x)), Sequest ([Eng et al. 1994](https://doi.org/10.1016/1044-0305(94)80016-2)) ou encore [X!Tandem](https://www.thegpm.org/TANDEM/) .
+- Une recherche de novo indépendante des banques de données – Le principe est de déterminer la séquence peptidique à partir des spectres MS/MS (comme nous l’avons vu précédemment et illustré Figure 10) et de rechercher à quelle protéine elle est associée (par alignement de séquence). Nous pouvons citer l’outil [Peaks](https://www.bioinfor.com/). Généralement l’identification est plus rapide mais moins performante.
+- Une recherche hybride combinant les deux approches – Le principe est de déterminer la séquence peptidique à partir de ce spectre pour (1) réaliser une sous-sélection de spectres dans une banques de données de spectres théoriques puis (2) de comparer le spectre expérimental avec ces spectres sélectionnés. Cette méthode permet plus d’identification qu’en ne faisait que la méthode de novo et est plus rapide que l’approche par banque de données puisqu’il y a une sous sélection des spectres théoriques à comparer. Nous pouvons citer l’outil Byonic ([Bern et al. 2012](https://doi.org/10.1002/0471250953.bi1320s40.Byonic)).
+
+{% include image.html url="./assets/img/spectroMass/fig11.png" width="800px" description="Figure 11 – Résumé des 3 approches d'identification peptides : par comparaison des spectres, par comparaison des séquences et par comparaison des spectres après une sous-sélection par la séquence." %}
+
+Une fois l’identification réalisée, il faut lui donner un score pour évaluer sa qualité. Le score dépend de l’approche utilisée mais certains critères sont identiques :
+
+- La différence de masse entre la masse du précurseur et la masse du peptide théorique ;
+- La différence de masse entre les masses des fragments et les masses théoriques des fragments ;
+- L’intensité des pics identifiés pour être un fragment et les non identifiés ;
+- La corrélation de l’intensité du fragment et les intensités théoriques attendues calculés à partir des peptides théoriques.
+
+Ces critères vont permettre de calculer un score de qualité, comme une valeur P (*P-value*) ou une valeur E (*E-value*), qui seront une bonne aide pour sélectionner les identifications pertinentes. Certaines causes courantes compliquent néanmoins l’identification d’une protéine (Figure 12) :
+
+- Un peptide identifié à partir d’un spectre peut apparaitre dans différentes protéines (peptide partagé ou commun). En effet, plusieurs protéines peuvent avoir une partie de séquence en acides aminés similaire qui donneront les peptides communs mais posséder un ou plusieurs peptides uniques permettant l’identification de la protéine de façon certaine. Dans le cas où il n’y a pas de peptide unique identifié, la protéine sélectionnée sera celle qui présentera le meilleur alignement avec le peptide. Si aucune distinction n’est possible (score identique), une liste de protéines est proposée avec comme classement en première position une protéine choisie aléatoirement, pouvant générer des faux positifs / erreurs ;
+- Différents peptides peuvent être identifiés à partir du même spectre ;
+- Un peptide peut être identifié à partir de plusieurs spectres.
+
+{% include image.html url="./assets/img/spectroMass/fig12.png" width="800px" description="Figure 12 – Principales difficultés rencontrées lors de l'identification d’une protéine à partir des peptides." %}
 
 ---
 

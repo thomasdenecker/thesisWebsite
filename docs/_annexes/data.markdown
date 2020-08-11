@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Le mot « Data » et ses multiples épithètes"
-abstract: "Présatation rapide de la data science, data analysis et data mining"
+abstract: "Présentation rapide de la data science, data analysis et data mining"
 annexe: 2
 ---
 
