@@ -636,8 +636,6 @@ ul ul a {
     background-color: gainsboro;
 }
 
-
-
 p.descriptionGene {
     padding: 10px;
     border: black 1px solid;
@@ -658,6 +656,30 @@ blockquote {
     padding-left: 8px;
 }
 
+ /* ---------------------------------------------------
+    scrollbar
+----------------------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #3e414d; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gainsboro; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3e414d; 
+}
 
  /* ---------------------------------------------------
     highlight
@@ -673,11 +695,23 @@ div.highlight {
     width: 100% ;
     background-color: #F7F8F3;
 }
+.language-r table {
+    width: 100% ;
+    background-color: #F7F8F3;
+}
+
+.language-python table {
+    width: 100% ;
+    background-color: #F7F8F3;
+}
+
 
 pre {
     padding: 10px;
     margin: 0px;
 }
+
+.gutter {width: 20px !important;}
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #008800; font-style: italic } /* Comment */

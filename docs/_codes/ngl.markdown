@@ -2,7 +2,8 @@
 layout: post
 title:  "NGL viewer" 
 abstract: "Intégrer facilement des structures 3D dans vos pages web"
-tuto: 1
+code: 3
+language : "HTML & JS"
 ---
 
 Vous souhaitez ajouter une structure 3D dans votre page web ? NGL viewer est un outil simple à mettre en place. Un exemple est proposé dans l'annexe [Spectrométrie de masse]({{ '/annexes/spectroMass/' | relative_url  }}).
