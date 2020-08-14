@@ -40,4 +40,4 @@ L’objectif est de mesurer à l’aide de l’intensité de la fluorescence la 
 
 {% include image.html url="./assets/img/microarray/fig2.png" width="400px" description="Figure 2 - Résumé des différentes étapes de la réalisation d’une expérience de puce à ADN double marquage." %}
 
-L’[annexe XXXXXX](./annexes/biaisPuces/) présente les différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées.
+Différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées sont présentées dans cette [annexe](https://thomasdenecker.github.io/thesisWebsite/annexes/biaisPuces/).
