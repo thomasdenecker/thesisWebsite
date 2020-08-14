@@ -2,7 +2,7 @@
 layout: post
 title:  "Puces à ADN double marquage"
 abstract: "Présentation des différentes étapes de la technologie de puce à ADN double marquage"
-annexe: 8
+annexe: 7
 ---
 
 
@@ -34,9 +34,10 @@ L’objectif est de mesurer à l’aide de l’intensité de la fluorescence la 
 - Supérieur à 1 : le gène étudié est plus exprimé dans l’expérience 1 (intensité de la fluorescence rouge > intensité de la fluorescence verte). Le gène est donc surexprimé en condition induisant la carence en fer. 
 - Inférieur à 1 : le gène est moins exprimé dans l’expérience 1 (intensité de la fluorescence rouge < intensité de la fluorescence verte). Le gène est donc sous-exprimé en condition induisant la carence en fer.
 
-#### 6. Analyses de donnée
+#### 6. Analyses de données
+
 À partir de ce jeu de données, des analyses de données peuvent être réalisées
 
 {% include image.html url="./assets/img/microarray/fig2.png" width="400px" description="Figure 2 - Résumé des différentes étapes de la réalisation d’une expérience de puce à ADN double marquage." %}
 
-L’[annexe XXXXXX](./annexes/biaisPuces/)  présente les différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées.
+L’[annexe XXXXXX](./annexes/biaisPuces/) présente les différents biais rencontrés lors de la réalisation de puces à ADN et les solutions classiquement utilisées.

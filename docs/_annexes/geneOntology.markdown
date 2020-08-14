@@ -2,7 +2,7 @@
 layout: post
 title:  "La Gene Ontology"
 abstract: "Présentation de 5 cas où les graphiques peuvent nous tromper."
-annexe: 11
+annexe: 6
 ---
 
 ### 1. Une ontologie

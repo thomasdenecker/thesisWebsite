@@ -2,7 +2,7 @@
 layout: post
 title:  "Homologues, orthologues, paralogues"
 abstract: "Définition des homologues, orthologues, paralogues"
-annexe: 4
+annexe: 12
 ---
 
 En 2003, une liste de gènes dit universels a été mise en évidence ([Harris et al. 2003](https://doi.org/10.1101/gr.652803)). Ces gènes sont partagés entre toutes les formes de vie. Il est possible de trouver des gènes similaires au sein d’une même espèce ou entre espèces qui permettent de déduire s’ils sont liés d’un point de vu évolutif en partageant un ancêtre commun. Ces gènes sont dans ce cas des homologues. Leur identification est primordiale dans une recherche évolutive car ils permettent de séparer les spécifiés des caractères communs. De plus, comme l’annotation fonctionnelle par l’expérimentation est longue et délicate, rechercher ce type de gènes permet d’extrapoler des fonctions ou des structures (transfert d’annotation) ([Eisen 1998](https://doi.org/10.1093/nar/26.18.4291)). L’étape suivante consiste à distinguer les gènes homologues en fonction d’événements évolutifs :

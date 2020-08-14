@@ -2,7 +2,7 @@
 layout: post
 title:  "Mise en évidence d’un problème d’annotation automatique"
 abstract: "Les étapes qui nous ont permis de mettre en évidence un problème d'annotation et comment nous l'avons résolu."
-annexe: 12
+annexe: 13
 ---
 
 ### 1. Le gène HAP1 dans les bases de données de référence

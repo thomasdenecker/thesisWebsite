@@ -2,7 +2,7 @@
 layout: post
 title:  "Spectrométrie de masse"
 abstract: "Présentation de la spectrométrie de masse"
-annexe: 6
+annexe: 10
 ---
 
 ## Principes et composants

@@ -2,7 +2,7 @@
 layout: post
 title:  "Le mot « Data » et ses multiples épithètes"
 abstract: "Présentation rapide de la data science, data analysis et data mining"
-annexe: 2
+annexe: 3
 ---
 
 « Data analysis », « data mining », « data science », etc. Les épithètes qui qualifient le mot

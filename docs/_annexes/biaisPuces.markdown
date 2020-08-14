@@ -2,7 +2,7 @@
 layout: post
 title:  "Les biais des puces à ADN et les solutions de normalisation"
 abstract: "Présentation des différents biais qui peuvent être rencontrés lors de l'analyse de données de puces à ADN et des solutions"
-annexe: 6
+annexe: 8
 ---
 
 Les puces à ADN sont très appréciées chez les chercheurs pour leur robustesse et leur faible coût. Cependant, des biais ont été mis en évidence ces dernières années :

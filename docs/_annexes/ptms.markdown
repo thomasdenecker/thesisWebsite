@@ -2,7 +2,7 @@
 layout: post
 title:  "Modifications post-traductionnelles les plus fréquentes"
 abstract: "Présentation de la phosphorylation, de la glycolisation, de l’ubiquitination, de la  méthylation et de la N-acétylation."
-annexe: 13
+annexe: 11
 ---
 
 Comme nous l'avons vu dans le manuscrit, une modification post-traductionnelle est « une modification biochimique qui se produit sur un ou plusieurs acides aminés d'une protéine après que la protéine ait été traduite par un ribosome. » ([Carter et al. 2015](https://doi.org/10.1038/nrm2203)). Parmi les plus fréquentes ([Khoury et al. 2011](https://doi.org/10.1038/srep00090)), nous retrouvons :

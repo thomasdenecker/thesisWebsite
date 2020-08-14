@@ -2,7 +2,7 @@
 layout: post
 title:  "Acides aminés et protéome "
 abstract: "Des acides aminés au protéome. "
-annexe: 14
+annexe: 9
 ---
 
 ### Acides aminés

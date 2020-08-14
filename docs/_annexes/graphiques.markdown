@@ -2,7 +2,7 @@
 layout: post
 title:  "Comment les graphiques peuvent-ils nous tromper ?"
 abstract: "Présentation de 5 cas où les graphiques peuvent nous tromper."
-annexe: 10
+annexe: 4
 ---
 
 Nous disons souvent « les chiffres ne mentent pas ». Mais en est-il de même pour les graphiques ? Les graphiques doivent être le reflet des données mais comme un miroir déformant, il est possible d’appliquer des filtres pour appuyer un message (paraître plus grand, plus gros, …). Parler de mensonge serait sans doute un peu extrême puisque nous partons des mêmes données.  Mais nous pouvons facilement être trompés par les graphiques notamment lorsque certains stratagèmes sont employés.

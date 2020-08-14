@@ -2,7 +2,7 @@
 layout: post
 title:  "Omiques"
 abstract: "Une présentation des omiques et des principaux composants (génomique, transcriptomique et protéomique)."
-annexe: 3
+annexe: 1
 ---
 
 ## Qu’appelle-t-on les « omiques » ?

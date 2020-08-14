@@ -2,7 +2,7 @@
 layout: post
 title:  "Les forces et les faiblesses de l’intelligence artificielle"
 abstract: "Aperçu des forces et des faiblesses de l’intelligence artificielle"
-annexe: 6
+annexe: 14
 ---
 
 Au cours de la rédaction de la conclusion de ma thèse, j’ai pu relever un certain nombre de forces et de faiblesses 

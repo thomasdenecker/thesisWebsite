@@ -1,4 +1,6 @@
-{% for annexe in site.annexes %}
+{% assign annexes = site.annexes | sort:"annexe" %}
+
+{% for annexe in annexes %}
 {% assign remainder = forloop.index | modulo: 3 %}
 {% if forloop.first == true %}
 
