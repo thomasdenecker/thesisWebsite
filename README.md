@@ -3,7 +3,26 @@
 Pour accompagner mon manuscrit de thèse, j'ai mis en place une ressource numérique permettant au lecteur qui le souhaite d’approfondir et de compléter 
 certains éléments de ce texte. Cette ressource est accessible à l'adresse suivante : [https://thomasdenecker.github.io/thesisWebsite/](https://thomasdenecker.github.io/thesisWebsite/).
 
-## Informations sur la thèse 
+[![](https://img.shields.io/badge/LICENCE-BSD--3-brightgreen.svg)](https://github.com/thomasdenecker/thesisWebsite/blob/master/LICENSE)
+
+
+[![Website Ressources](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://thomasdenecker.github.io/thesisWebsite/)
+
+[![made-with-Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-1f425f.svg)](https://jekyllrb.com/)
+[![made-with-markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[![made-with-JS](https://img.shields.io/badge/Made%20with-JS-1f425f.svg)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+
+[:speech_balloon: Posez une question](https://github.com/thomasdenecker/thesisWebsite/issues/new)
+[:book: Lisez les questions](https://github.com/thomasdenecker/thesisWebsite/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
+[:e-mail: M'envoyer un mail](mailto:thomas.denecker@gmail.com)
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="20" ><style>a:hover #llink{fill:url(#b);stroke:#ccc}a:hover #rlink{fill:#4183c4}</style><linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#fcfcfc" stop-opacity="0"/><stop offset="1" stop-opacity=".1"/></linearGradient><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#ccc" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><g stroke="#d5d5d5"><rect stroke="none" fill="#fcfcfc" x="0.5" y="0.5" width="60" height="19" rx="2"/></g><image x="5" y="3" width="14" height="14" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMURBMUYyIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHdpdHRlciBpY29uPC90aXRsZT48cGF0aCBkPSJNMjMuOTU0IDQuNTY5Yy0uODg1LjM4OS0xLjgzLjY1NC0yLjgyNS43NzUgMS4wMTQtLjYxMSAxLjc5NC0xLjU3NCAyLjE2My0yLjcyMy0uOTUxLjU1NS0yLjAwNS45NTktMy4xMjcgMS4xODQtLjg5Ni0uOTU5LTIuMTczLTEuNTU5LTMuNTkxLTEuNTU5LTIuNzE3IDAtNC45MiAyLjIwMy00LjkyIDQuOTE3IDAgLjM5LjA0NS43NjUuMTI3IDEuMTI0QzcuNjkxIDguMDk0IDQuMDY2IDYuMTMgMS42NCAzLjE2MWMtLjQyNy43MjItLjY2NiAxLjU2MS0uNjY2IDIuNDc1IDAgMS43MS44NyAzLjIxMyAyLjE4OCA0LjA5Ni0uODA3LS4wMjYtMS41NjYtLjI0OC0yLjIyOC0uNjE2di4wNjFjMCAyLjM4NSAxLjY5MyA0LjM3NCAzLjk0NiA0LjgyNy0uNDEzLjExMS0uODQ5LjE3MS0xLjI5Ni4xNzEtLjMxNCAwLS42MTUtLjAzLS45MTYtLjA4Ni42MzEgMS45NTMgMi40NDUgMy4zNzcgNC42MDQgMy40MTctMS42OCAxLjMxOS0zLjgwOSAyLjEwNS02LjEwMiAyLjEwNS0uMzkgMC0uNzc5LS4wMjMtMS4xNy0uMDY3IDIuMTg5IDEuMzk0IDQuNzY4IDIuMjA5IDcuNTU3IDIuMjA5IDkuMDU0IDAgMTMuOTk5LTcuNDk2IDEzLjk5OS0xMy45ODYgMC0uMjA5IDAtLjQyLS4wMTUtLjYzLjk2MS0uNjg5IDEuOC0xLjU2IDIuNDYtMi41NDhsLS4wNDctLjAyeiIvPjwvc3ZnPg=="/><g aria-hidden="false" fill="#333" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" text-rendering="geometricPrecision" font-weight="700" font-size="110px" line-height="14px"><a target="_blank" xlink:href="https://twitter.com/intent/tweet?text=Le%20site%20de%20la%20thèse%20de%20Thomas%20Denecker%20:&amp;url=https%3A%2F%2Fthomasdenecker.github.io%2FthesisWebsite%2F"><text aria-hidden="true" x="385" y="150" fill="#fff" transform="scale(.1)" textLength="330">Tweet</text><text x="385" y="140" transform="scale(.1)" textLength="330">Tweet</text><rect id="llink" stroke="#d5d5d5" fill="url(#a)" x=".5" y=".5" width="60" height="19" rx="2" /></a></g></svg>
+[![Twitter Follow](https://img.shields.io/twitter/follow/DeneckerThomas.svg?style=social)](https://twitter.com/DeneckerThomas)  
+
+## Informations sur la thèse
 
 **Titre** : Bioinformatique et analyse de données multiomiques : principes et applications chez les levures pathogènes *Candida glabrata* et *Candida albicans*
 
@@ -44,9 +63,8 @@ homeostasis in the pathogenic yeast *Candida glabrata*. The second concerns the 
 yeast *Candida albicans*. In these two projects, omics data were used: transcriptomics and proteomics. Appropriate bioinformatics and analysis tools were developed, 
 leading to the emergence of new research hypotheses. Particular and constant attention has also been paid to the question of data reproducibility and sharing of 
 results with the scientific community.
- 
 
-## Composition du jury / Jury composition	
+## Composition du jury / Jury composition
 
 - **Sarah COHEN BOULAKIA**			Professeure, LRI, Paris Saclay			Présidente
 - **Bertrand COSSON**			Professeur, Paris Diderot			Rapporteur & Examinateur
