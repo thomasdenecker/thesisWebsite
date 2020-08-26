@@ -20,7 +20,7 @@
 
         <!-- Page Content -->
        
-        <div id="content">
+        <div id="content" class="containerMargin">
             <div class="container containerStyle">
                 {{ content }}
             </div>
@@ -60,23 +60,6 @@
                     $('#sidebar').toggleClass('active');
                 });
             });
-
-
-        if ($('#content').width() >= 1140) {
-            $('#content').addClass('containerMargin');
-        }
-        else {
-            $('#content').removeClass('containerMargin');
-        }
-
-        $(window).on('resize', function () {
-            if ($('#content').width() >= 1140) {
-                $('#content').addClass('containerMargin');
-            }
-            else {
-                $('#content').removeClass('containerMargin');
-            }
-        })
         
     </script>
 
