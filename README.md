@@ -3,7 +3,7 @@
 Pour accompagner mon manuscrit de thèse, j'ai mis en place une ressource numérique permettant au lecteur qui le souhaite d’approfondir et de compléter 
 certains éléments de ce texte. Cette ressource est accessible à l'adresse suivante : [https://thomasdenecker.github.io/thesisWebsite/](https://thomasdenecker.github.io/thesisWebsite/).
 
-[![](https://img.shields.io/badge/LICENCE-BSD--3-brightgreen.svg)](https://github.com/thomasdenecker/thesisWebsite/blob/master/LICENSE)
+[![](https://img.shields.io/badge/LICENCE-BSD--3-brightgreen.svg)](https://github.com/thomasdenecker/thesisWebsite/blob/master/LICENSE) [![DOI](https://zenodo.org/badge/285833476.svg)](https://zenodo.org/badge/latestdoi/285833476)
 
 
 [![Website Ressources](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://thomasdenecker.github.io/thesisWebsite/)
