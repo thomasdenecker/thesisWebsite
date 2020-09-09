@@ -35,7 +35,7 @@ Si deux ensembles suivent la même tendance, cela ne signifie pas qu’ils sont 
 
 Lorsque nous utilisons des chiffres concernant une population, le message sera profondément différent si nous prenons en compte la taille de la population (relative) ou non (absolue).
 
-{% include image.html url="/assets/img/graphique/fig3.png" width="100%" description="Figure 3 – Comparaison de la taille des 5 plus grandes armées avec une représentation relative et une représentation absolue." %}
+{% include image.html url="/assets/img/graphique/fig3.PNG" width="100%" description="Figure 3 – Comparaison de la taille des 5 plus grandes armées avec une représentation relative et une représentation absolue." %}
 
 ### 4. Jouer sur les aspects graphiques
 
