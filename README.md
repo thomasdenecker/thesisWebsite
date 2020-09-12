@@ -67,7 +67,7 @@ results with the scientific community.
 
 - **Sarah COHEN BOULAKIA**			Professeure, LRI, Paris Saclay			Présidente
 - **Bertrand COSSON**			Professeur, Paris Diderot			Rapporteur & Examinateur
-- **Marie-Agnès DILIES**			Ingénieur de recherche, Pasteur			Rapportrice & Examinatrice
+- **Marie-Agnès DILLIES**			Ingénieur de recherche, Pasteur			Rapportrice & Examinatrice
 - **Stéphane LE CROM**			Professeur, Sorbonne université			Rapporteur & Examinateur
 - **Hélène CHIAPELLO**			Ingénieur de recherche, INRAE			Examinatrice	
 - **Gaëlle LELANDAIS**			Professeure, I2BC, Paris Saclay			Directrice de thèse
