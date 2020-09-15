@@ -2,7 +2,7 @@
 layout: "page"
 title: "Livre d'or"
 permalink: "retours"
-order: 5
+order: 8
 ---
 
 Vous souhaitez me faire un retour ? Ce formulaire est fait pour ça et je vous en remercie par avance !

@@ -2,7 +2,7 @@
 layout: "page"
 title: "Annexes"
 permalink: "annexes"
-order: 3
+order: 4
 ---
 
 {% include listAnnexe.html %}

@@ -2,7 +2,7 @@
 layout: "page"
 title: "Vidéos"
 permalink: "videos"
-order: 4
+order: 7
 ---
 
 ### Mes vidéos
